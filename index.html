@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lista de Productos</h1>
+
+    <!-- Formulario para agregar productos -->
+    <form id="productForm">
+        <input type="text" id="name" placeholder="Nombre" required>
+        <input type="number" id="quantity" placeholder="Cantidad" required>
+        <input type="number" id="price" placeholder="Precio" required>
+        <button type="submit">Añadir Producto</button>
+    </form>
+
+    <!-- Tabla para mostrar productos -->
+    <table id="productTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
